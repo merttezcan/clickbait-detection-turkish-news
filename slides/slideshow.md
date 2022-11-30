@@ -7,11 +7,14 @@ author: Mehmet Mert Tezcan
 <style>
     :root {
         --color-background: #16161D !important;
-	--color-foreground: #FFF8E7 !important;
+	--color-foreground: #FFFFFF !important;
     }
 </style>
 
 # Clickbait Detection on Turkish News Articles
+ 
+###### Mehmet Mert Tezcan
+
 
 ---
 
@@ -45,9 +48,9 @@ author: Mehmet Mert Tezcan
 
 - 10,030 clickbait titles and 10,006 non-clickbait titles
 
-- Source: [Kaggle](https://www.kaggle.com/datasets/suleymancan/turkishnewstitle20000clickbaitclassified)
+- There are 4 columns named as "id", "clickbait" (label), "site" and "title". Only the title and label are useful, but I can extract some more features from title.
 
-- I can also try to collect my own data from the APIs of news websites.
+- Source: [Kaggle](https://www.kaggle.com/datasets/suleymancan/turkishnewstitle20000clickbaitclassified)
 
 ---
 
@@ -65,12 +68,17 @@ author: Mehmet Mert Tezcan
 
 - Data Preprocessing
 
+- EDA (Exploratory Data Analysis)
+
 - Feature Extraction
 
-- Tokenization
+- Tokenization, Vectorization
 
-- Machine Learning Models
+- Machine Learning Models (Logistic Regression, Naive Bayes, SVM, Random Forest, etc.) I can try to use all and compare the results.
 
+- Parameter Tuning, to improve the performance of the models.
+
+- Evaluation
 ---
 
 # Expected Challenges
